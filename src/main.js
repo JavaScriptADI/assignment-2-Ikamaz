@@ -9,7 +9,7 @@ console.log(message);
 
 //N3
 let num1 = 14;
-console.log(14 > 9);
+console.log(num1 > 9);
 
 //N4
 let isTrue = true;
@@ -43,8 +43,8 @@ console.log(`Next year you will be ${nextAge}`);
 
 //N12
 let name = prompt('What is your name?');
-let age = Number(prompt('How old are you?'));
-let isInSixties = (age >= 60 && age < 70);
+let age1 = Number(prompt('How old are you?'));
+let isInSixties = (age1 >= 60 && age1 < 70);
 console.log(`${name} is in sixties: ${isInSixties}`);
 
 //N13
@@ -74,9 +74,9 @@ let b = '5';
 console.log(a == b); // true
 
 //N19
-let a = 3;
-let b = 11;
-console.log(a != b); // true
+let a1 = 3;
+let b1 = 11;
+console.log(a1 != b1); // true
 
 //N20
 let str = "Number: ";
